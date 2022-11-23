@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  categories = ['Kategoria_1', 'Kategoria_2', 'Kategoria_3', 'Kategoria_4', 'Kategoria_5']
+
   constructor() { }
 
   ngOnInit(): void {
